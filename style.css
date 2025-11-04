@@ -1,0 +1,50 @@
+body{
+        background-color: rgb(200, 152, 97);
+}
+#head{
+    background-color: rgb(99, 77, 51);
+    align-items: center;
+    height: 150px;
+    flex-wrap: wrap;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 8px rgb(89, 67, 42);
+}
+#imagen1{
+    width: 120px;
+    height: 100px;
+}
+#find{
+    width: 350px;
+    height: 50px;
+    background-color: rgb(195, 169, 139);
+    border: black,3px,solid;
+    font-size: 27px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+#inicio{
+    font-size: 27px;
+}
+#menu{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(195, 169, 139);
+    align-self: flex-end;
+    font-size: 27px;
+    margin-right: 60px;
+}
+#caru{
+    height: 1200px;
+    width: 100%;
+    background-color: rgb(168, 126, 80);
+}
+#card{
+    background-color: rgb(133, 104, 71);
+}
+#main{
+    box-shadow: 0px 30px 0px rgb(133, 104, 71);
+}
+#info{
+    background-color: aqua;
+}

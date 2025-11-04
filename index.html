@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café de la Plaza</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="body" class="w-auto flex h-[2500px] flex-col flex-nowrap">
+        <header id="head"class="w-full fixed flex box-border justify-center gap-40 flex-col">
+            <img id="imagen1" src="img/logo.png" alt="logo" class="rounded-full">
+            <input id="find" type="text">
+            <a id="inicio" href="#head2">Inicio</a>
+            <a id="inicio" >Contacto</a>
+            <a id="inicio" href="#nosotros">Nosotros</a>
+            <button id="menu">Menu</button>
+        </header>
+
+        <div id="head2" class="w-7xl h-[155px]"></div>
+
+        <div class="flex flex-wrap h-[1200px] w-full justify-between">
+            <div class="flex w-[50%] h-[1100px]">
+                <div id="caru" class="flex flex-row box-border">
+                    <div class="grid gap-4 p-15 box-border">
+                        <div>
+                            <img id="main" class="h-95 w-3xl rounded-lg" src="img/c4.jpg" alt="Cafe 1">
+                        </div>
+                        <div id="c"class="grid grid-cols-4 gap-70 box-border">
+                            <div class="w-3xs">
+                                <img id="main" class="h-auto w-full rounded-lg " src="img/c1.png" alt="Cafe 2">
+                            </div>
+                            <div class="w-3xs">
+                                <img id="main" class="h-auto w-full rounded-lg" src="img/c2.png" alt="Cafe 3">
+                            </div>
+                            <div class="w-3xs">
+                                <img id="main" class="h-auto w-full rounded-lg" src="img/c3.png" alt="Cafe 4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+
+            <div class="w-[50%] h-[1200px] box-border p-20 text-5xl">
+                <h1>En este café, cada detalle invita a la pausa. La madera tibia de las mesas, el aroma envolvente del café recién hecho y la luz suave que se filtra por los ventanales crean un refugio donde el tiempo parece desacelerar. <br>Afuera, la ciudad sigue su ritmo; adentro, todo se vuelve más íntimo, más humano.Las tazas humeantes acompañan conversaciones tranquilas, lecturas solitarias o miradas que se cruzan sin prisa. Es un espacio donde el ruido se transforma en susurro y el café no es solo bebida, sino ritual. Un rincón pensado para quedarse un rato más.</h1>
+            </div>
+        </div>
+        <div id="nosotros" style="border: black,solid,2px;">
+            <h1 class="text-center text-7xl p-20" >Nosotros</h1>
+            <h1 class="text-4xl p-20">Nacimos del deseo de crear un espacio donde el café no solo se sirva, sino se celebre. Cada taza que preparamos cuenta una historia: la del productor que cultiva con dedicación, la del barista que cuida cada detalle, y la del visitante que encuentra en nuestro rincón un momento de pausa. Creemos en el valor de lo artesanal, en los sabores que despiertan memorias, y en los encuentros que surgen entre aromas y palabras. Nuestro ambiente combina lo cálido de la madera con lo vibrante de la ciudad que nos rodea.<br> Diseñamos cada rincón para que te sientas cómodo, inspirado y bienvenido.<br> Ya sea que vengas por tu espresso diario, por una charla tranquila o por descubrir nuevas variedades, queremos que vivas una experiencia auténtica, cercana y con propósito.</h1>
+        </div>
+        <div class="justify-between w-full h-[400px] flex flex-col items-center p-20 box-border text-4xl">
+            <h1>¡Ordene aqui!</h1>
+            <br>
+            <button class="w-[600px] h-[200px]"style="background-color: greenyellow;">Ordenar</button>
+        </div>
+    </div>
+
+</body>
+</html>
