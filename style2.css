@@ -9,6 +9,25 @@
 }
 body{
     margin: 0;
+    background-color: rgb(200, 152, 97);
+}
+#head{
+    background-color: rgb(99, 77, 51);
+    align-items: center;
+    height: 150px;
+    flex-wrap: wrap;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 8px rgb(89, 67, 42);
+}
+#menu{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(195, 169, 139);
+    align-self: flex-end;
+    font-size: 27px;
+    margin-right: 60px;
+    border: black,3px,solid;
 }
 #find{
     width: 350px;
