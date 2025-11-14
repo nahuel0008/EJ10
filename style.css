@@ -25,6 +25,11 @@ body{
 }
 #inicio{
     font-size: 27px;
+    background-color: rgb(195, 169, 139);
+    width: 130px;
+    text-align: center;
+    height: 50px;
+    border: black,3px,solid;
 }
 #menu{
     width: 150px;
@@ -33,6 +38,7 @@ body{
     align-self: flex-end;
     font-size: 27px;
     margin-right: 60px;
+    border: black,3px,solid;
 }
 #caru{
     height: 1200px;
@@ -45,6 +51,9 @@ body{
 #main{
     box-shadow: 0px 30px 0px rgb(133, 104, 71);
 }
-#info{
-    background-color: aqua;
+#dir{
+    position: absolute;
+    top: 1200px;
+    left: 0px;
+    background-color: aliceblue;
 }
